@@ -32,6 +32,6 @@ function removeFirstKitten() {
 }
 
 function removeLastKitten() {
-  kittens.[...kittens, "Garfield"];
-  return kittens;
+  
+  return kittens.pop();
 }

@@ -31,6 +31,6 @@ function removeFirstKitten() {
 }
 
 function removeLastKitten() {
-  array = kittens.slice(2);
-  return array;
+  kittens.[...kittens, "Garfield"];
+  return kittens;
 }

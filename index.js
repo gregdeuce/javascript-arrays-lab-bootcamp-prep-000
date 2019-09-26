@@ -22,6 +22,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
+  var kitty = "Arnold";
   kittens.splice("Arnold");
   return kittens;
 }
